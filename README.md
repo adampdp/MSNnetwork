@@ -10,4 +10,5 @@ In the same directory compile the mod files : nrnivmodl *mod
 Then : nrniv -python t42_batch.py
 
 A directory 't42_data' will be created with the output files.
+
 Remove or rename this directory to run the code again.
