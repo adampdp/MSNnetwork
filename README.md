@@ -7,6 +7,8 @@ https://www.netpyne.org/documentation/installation
 Download the code into a single directory.
 In the same directory compile the mod files : nrnivmodl *mod
 
+Set the number of cores, 'numprocs' in t42_batch.py
+
 Then : nrniv -python t42_batch.py
 
 A directory 't42_data' will be created with the output files.
