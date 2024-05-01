@@ -5,11 +5,11 @@ Install the Python NetPyNE environment, as described here:
 https://www.netpyne.org/documentation/installation
 
 Download the code into a single directory.
-In the same directory compile the mod files : nrnivmodl *mod
+In the same directory compile the mod files on the command line : nrnivmodl mechanisms
 
 Set the number of cores, 'numprocs' in t42_batch.py
 
-Then : nrniv -python t42_batch.py
+Then on the command line : nrniv -python t42_batch.py
 
 A directory 't42_data' will be created with the output files.
 
