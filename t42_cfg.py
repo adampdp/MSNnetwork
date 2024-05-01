@@ -11,11 +11,11 @@ from netpyne import specs
 ## Population parameters
 cfg = specs.SimConfig()				
 
-cfg.duration = 600000
+cfg.duration = 6000
 cfg.starttime = 0
-cfg.seedval = 576667
+cfg.seedval = 42
 
-cfg.msnpopsize = 400
+cfg.msnpopsize = 40
 
 cfg.cvode_active = True
 cfg.dt = 0.025
