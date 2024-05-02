@@ -11,11 +11,11 @@ from netpyne import specs
 ## Population parameters
 cfg = specs.SimConfig()				
 
-cfg.duration = 6000
+cfg.duration = 10000
 cfg.starttime = 0
 cfg.seedval = 42
 
-cfg.msnpopsize = 40
+cfg.msnpopsize = 100
 
 cfg.cvode_active = True
 cfg.dt = 0.025
@@ -61,7 +61,7 @@ cfg.analysis['plotRaster'] = {
 cfg.recordTraces['V_soma'] = {'sec':'soma','loc':0.5,'var':'v'}
 
 cfg.analysis['plotTraces'] = { 
-                                        'include': list(range(1)), 
+                                        'include': list(range(5)), 
                                         'saveFig': True, 
                                         'showFig': False,
                                  
