@@ -7,8 +7,11 @@ https://www.netpyne.org/documentation/installation
 In short: 
 
 conda create -n "mynetpyne" python=3.7
+
 conda activate mynetpyne
+
 pip install neuron
+
 pip install netpyne
 
 Download the code into a single directory.
