@@ -16,9 +16,9 @@ def batchTauWeight():
 
     params = specs.ODict() 
     numprocs = 12
-    seedbase = 576521
+    seedbase = 42
    
-    params['seedval'] = list(range(0 + seedbase, 100 + seedbase, 100)) 
+    params['seedval'] = [seedbase] 
     #params['alvsomaclampampoff'] =  [0.00001 + 0.00001*x for x in range(0,30,2)]
     params['alvsomaclampampoff'] =  [0.00001]
     #params['msn_msn_basewei'] = [x*0.0001 for x in [0.25,0.5,1,1.5,2,2.5,3,4,5]]
